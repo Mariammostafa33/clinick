@@ -1,0 +1,114 @@
+.navbar{
+border-bottom: 5px solid gainsboro;
+}
+.nav-link{
+font-size: 1.2rem ;
+}
+header{
+min-height: 100vh;
+background: url(../images/aa.jpg)no-repeat;
+background-position: center;
+background-size: cover;
+padding: 200px;
+
+}
+
+.btn{
+    border: solid 1px blue;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:blue;
+    text-decoration: none;
+  
+}
+section{
+    padding: 7rem 2rem;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+
+ .about .row{
+min-height: 50vh;
+}
+.about .content span{
+    font-size: 3rem;
+    color: blue;
+}
+.about .content h3{
+    font-size: 3rem;
+    color: black;
+    margin-top: 1rem;
+
+}
+.about .content p{
+    padding: 1rem;
+    font-size: 1.4rem;
+    color:gray;
+    line-height: 2;
+}
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem,1fr));
+    gap: 2rem;
+
+}
+.services .box-container .box{
+    text-align: center;
+padding: 2rem;
+background-color: white;
+box-shadow: none;
+border-radius: 5rem;
+}
+
+.services .box-container .box img{
+margin: 1rem 0;
+height: 5rem;
+}
+
+.services .box-container .box h3{
+font-size: 2rem;
+padding: 1rem 0;
+color: black;
+}
+.services .box-container.box p{
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.process .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem,1fr));
+    gap: 2rem;
+
+}
+
+
+.process .box-container .box{   
+padding: 2rem;
+border-radius: 5rem;
+box-shadow: teal;
+text-align: center;
+}
+.process .box-container .box img{
+height: 20rem;
+margin: 1rem 0;
+}
+.process .box-container .box h3{
+font-size: 2rem;
+color:black;
+margin: 1.5rem 0;
+}
+
+.process .box-container .box p{
+font-size: .9rem;
+color: black;
+line-height: 2;
+}
+
+
